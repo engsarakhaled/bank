@@ -59,19 +59,7 @@ Route::get('/', function () {
         Route::get('{id}/delete', 'destroy')->name('delete');
     });
   
-    // Route::group([
-    //     'controller' => UserController::class,
-    //     'prefix' => 'users',
-    //     'as' => 'users.',
-    //   //  'middleware' => 'verified',
-    // ], function () {
-    //     Route::get('create', 'create')->name('create');
-    //     Route::post('store', 'store')->name('store');
-    //     Route::get('index', 'index')->name('index');
-    //     Route::get('{id}/show', 'show')->name('show');
-    //     Route::get('{id}/edit', 'edit')->name('edit');
-    //     Route::put('{id}/update', 'update')->name('update');
-    // });
+   
 
 
 });
